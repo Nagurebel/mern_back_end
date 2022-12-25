@@ -1,15 +1,11 @@
 {
-    "name": "mern_back_end",
-    "version": "0.0.0",
+  "name": "backend",
+  "version": "0.0.0",
   "private": true,
-    "description": "",
-  "main":"index.js",
-    "scripts": {
-        "start": "node index.js"
-        "dev": "nodemon index.js",
-        "test": "eco\"Error:no test specified\" && exit 1"
-    },
-   "dependencies": {
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
     "bcrypt": "^5.0.1",
     "cookie-parser": "~1.4.4",
     "cors": "^2.8.5",
